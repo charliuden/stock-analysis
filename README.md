@@ -1,4 +1,4 @@
-# Atock Analysis
+# Stock Analysis
 Analysis of green energy stock.
 
 ## Project Overview
