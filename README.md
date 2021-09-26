@@ -27,11 +27,23 @@ Once the inner loop has worked through all the tockers (all 12 green companies),
 This VBA code was written twice. The second time was an attempt at making the code run more quickly (the code was refactored). The Timer function was used to find the total amount of time it took to perform each version of the analysis. Below is a screenshot of the message box produced by VBA telling us the run time. 
 
 
+As seen in the screen shots below, the original VBA code ran the 2017 stock data in 29954.47 second and the 2018 stockdata in 29881.99 second. After reffactoring the 2018 data ran in 0.109375 seconds and the 2017 data ran in 0.1289062 seconds; the refactored code was faster. 
 
-xxx method was faster. 
+Year 2017 green stock data, original VBA code:
+![stock_analysis_2017.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_2017.png)
+
+Year 2017 green stock data, refactored:
+![stock_analysis_refactored_2018.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_refactored_2017.png)
+
+Year 2018 green stock data, original VBA code:
+![stock_analysis_2017.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_2018.png)
+
+Year 2018 green stock data, refactored:
+![stock_analysis_refactored_2018.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_refactored_2018.png)
 
 ## Summary
 
-There is a detailed statement on the advantages and disadvantages of refactoring code in general (3 pt).
-There is a detailed statement on the advantages and disadvantages of the original and refactored VBA script (3 pt).
+In general, the benefits to refactored code include the use of less memory resulting in faster run time and code that's easier to read. It can also increase its functionality - the same code can be used on, multiple different datasets. A disadvantage to refactoring might simply be that it takes time to do. 
+
+The advantage of this analysis to refactoring my code is that it is more compact and concise. Going back to the code to figure out what I am trying to do with the stock analysis data will be easier, or at the very least, take me less time to read. However, it took me a few hours to refactor the code. The resulting decrease in run time, however, was not felt by me -the difference in seconds is not noticeable. In hindsight, I'm not sure this code is dealing with enough data to feel the benefits of refactored code. 
 
