@@ -30,16 +30,16 @@ This VBA code was written twice. The second time was an attempt at making the co
 As seen in the screen shots below, the original VBA code ran the 2017 stock data in 29954.47 second and the 2018 stockdata in 29881.99 second. After reffactoring the 2018 data ran in 0.109375 seconds and the 2017 data ran in 0.1289062 seconds; the refactored code was faster. 
 
 Year 2017 green stock data, original VBA code:
-![stock_analysis_2017.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_2017.png)
+![stock_analysis_2017.png](https://github.com/charliuden/stock_analysis/Resources/stock_analysis_2017.png)
 
 Year 2017 green stock data, refactored:
-![stock_analysis_refactored_2018.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_refactored_2017.png)
+![stock_analysis_refactored_2018.png](https://github.com/charliuden/stock_analysis/Resources/stock_analysis_refactored_2017.png)
 
 Year 2018 green stock data, original VBA code:
-![stock_analysis_2017.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_2018.png)
+![stock_analysis_2017.png](https://github.com/charliuden/stock_analysis/Resources/stock_analysis_2018.png)
 
 Year 2018 green stock data, refactored:
-![stock_analysis_refactored_2018.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_refactored_2018.png)
+![stock_analysis_refactored_2018.png](https://github.com/charliuden/stock_analysis/Resources/stock_analysis_refactored_2018.png)
 
 ## Summary
 
