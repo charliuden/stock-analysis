@@ -6,6 +6,7 @@ Analysis of green energy stock.
 This analysis was put together for Steve and his Parents. Steve's parents want to invest in green energy stocks. They have chosen DAQO new energy corp (DQ). DQ makes silicon parts for solar panels. Steve wants to make sure his parents have chosen a profitable green stock to invest in. To answer this question, this analysis compares DQ stock data with other green energy organizations. VBA was used to find the total daily volume and yearly return for each stock. 
 
   total volume = total # of shares traded throughout the day -a measure of how actively a stock is being traded 
+  
   yearly return = % difference in price from the start of the year to end of year
   
  
@@ -30,16 +31,16 @@ This VBA code was written twice. The second time was an attempt at making the co
 As seen in the screen shots below, the original VBA code ran the 2017 stock data in 29954.47 second and the 2018 stockdata in 29881.99 second. After reffactoring the 2018 data ran in 0.109375 seconds and the 2017 data ran in 0.1289062 seconds; the refactored code was faster. 
 
 Year 2017 green stock data, original VBA code:
-![stock_analysis_2017.png](https://github.com/charliuden/stock_analysis/Resources/stock_analysis_2017.png)
+![stock_analysis_2017.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_2017.png)
 
 Year 2017 green stock data, refactored:
-![stock_analysis_refactored_2018.png](https://github.com/charliuden/stock_analysis/Resources/stock_analysis_refactored_2017.png)
+![stock_analysis_refactored_2017.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_refactored_2017.png)
 
 Year 2018 green stock data, original VBA code:
-![stock_analysis_2017.png](https://github.com/charliuden/stock_analysis/Resources/stock_analysis_2018.png)
+![stock_analysis_2018.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_2018.png)
 
 Year 2018 green stock data, refactored:
-![stock_analysis_refactored_2018.png](https://github.com/charliuden/stock_analysis/Resources/stock_analysis_refactored_2018.png)
+![stock_analysis_refactored_2018.png](https://github.com/charliuden/stock_analysis/blob/main/stock_analysis_refactored_2018.png)
 
 ## Summary
 
